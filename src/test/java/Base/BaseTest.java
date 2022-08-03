@@ -31,6 +31,7 @@ public class BaseTest {
 
         WebElement date = driver.findElement(By.id("date"));
         date.sendKeys("01/02/2020");
+        System.out.println("abc");
 
 
 
